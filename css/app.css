@@ -1,0 +1,228 @@
+.btn_c {
+    background-color: #3d86e6; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.btn_det {
+    background-color: #d5ee9c; 
+    border: none;
+    color: rgb(10, 10, 10);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn_del {
+    background-color: #f57e7e; 
+    border: none;
+    color: rgb(7, 7, 7);
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 10px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.btn_c_h:hover {
+    background-color: #80b3f5; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn_succes {
+    background-color: #3a7a45; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+}
+
+.btn_s_h:hover {
+    background-color: #539c68; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.btn_l {
+    background-color: #af452b; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 6px;
+    
+}
+
+.btn_l_h:hover {
+    background-color: #dfb1a6; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+}
+
+/*button:hover {
+    border: none;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 20px;
+}*/
+
+h1 {
+    font-family: Helvetica, Geneva, Arial,
+    SunSans-Regular, sans-serif;
+    text-shadow: 10px 4px 5px rgb(103, 103, 104);
+}
+
+.form_input {
+    border-radius: 5px;
+    border: 1px solid #39c;
+    width : 250px;
+    height: 30px;
+  }
+
+
+.form_control {
+    border-radius: 5px;
+    border: 1px solid #39c;
+    width : 400px;
+    height: 30px;
+}
+
+
+/* estilos de los tab*/
+.tab {
+    overflow: hidden;
+    border: 1px solid rgb(104, 159, 223);
+    background-color: #80b3f5; 
+}
+  
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: rgb(73, 141, 231);
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: rgb(38, 103, 243);
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+#contenedor {
+    height:80vh;
+    width:80vw;
+}
+
+/*estilos tablas*/
+table {
+    table-layout: fixed;
+    width: 100%;
+    -moz-border-left-colors: 1;
+    border-collapse: collapse;
+    border: 3px solid rgb(45, 103, 228);
+    
+  }
+
+  th {
+    
+    text-align: center;
+    vertical-align: top;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+ }
+
+ caption {
+    padding: 0.3em;
+    color: #fff;
+     background: rgb(247, 245, 245);
+ }
+
+ th {
+    background: rgb(104, 159, 223);
+ }
+
+ tr {
+    
+    text-align: center;
+    vertical-align: top;
+    border-collapse: collapse;
+    padding: 0.3em;
+    caption-side: bottom;
+    height: 40px;
+ }
+
+ /*Estilos para div*/
+.divSuccess
+{
+    
+    border:1px solid rgb(58, 224, 147);
+    width:400px;
+    height:15px;
+    margin:5px;
+    padding:5px;
+    background:rgb(58, 224, 147);
+}
+
+.divErros
+{
+   
+    border:1px solid rgb(230, 81, 81);
+    width:400px;
+    height:15px;
+    margin:5px;
+    padding:5px;
+    background:rgb(230, 81, 81);
+}

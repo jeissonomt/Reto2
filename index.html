@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> CONSULTAR GASTOS</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/app.css" type="text/css">
+    <script src="js/funciones.js"></script>
+</head>
+
+<body>
+    <div align="center">
+        <h1>RETO 2</h1>
+        <br>
+        <!--<Label>ID</label>
+            <input class="form_input" type="number" id="id"><br><br>
+            <input class="btn_c" type="button" value="Consultar">&nbsp;&nbsp;<input type="button" class="btn_l" value="Limpiar">
+            -->
+        
+        <br>
+        
+        <div id="contenedor">
+            <div class="tab">
+                <button class="tablinks" onclick="openTab(event, 'Cubiculos')">Cubiculos</button>
+                <button class="tablinks" onclick="openTab(event, 'Clientes')">Clientens</button>
+                <button class="tablinks" onclick="openTab(event, 'Mensajes')">Mensajes</button>
+            </div>
+            
+            <!-- Tab content -->
+            <div id="Cubiculos" class="tabcontent">
+                <br>
+                <script>Consultar();</script>  
+                <Label>ID</label>
+                <input class="form_input" type="number" id="id">
+                <button class="btn_c btn_c_h" title="Buscar cubiculo" onclick="Consultaruno();"><img src="img/magnifying-glass.png"/></button>&nbsp;&nbsp;<button
+                    class="btn_l btn_l_h" title="Limpiar busqueda" onclick="LimpiarConsulta();"><img src="img/eraser.png" width="25px"/></button>
+                <br><br><div align="left"><button class="btn_succes btn_s_h" onclick="nuevoCubiculo();" title="Agregar nuevo cubiculo"><img src="img/round-add-button.png" width="20px"></button></div>
+                
+                <div id="mostrarcubiculos">
+                    <br><br>
+                </div>
+                <div id="mostrar">
+            </div>
+            </div>
+
+            <div id="Clientes" class="tabcontent">
+                <br>
+                <script>Consultarc();</script>  
+                <Label>ID</label>
+                <input class="form_input" type="number" id="idc">
+                <button class="btn_c btn_c_h" title="Buscar cliente" onclick="Consultarunoc();"><img src="img/magnifying-glass.png"/></button>&nbsp;&nbsp;<button
+                    class="btn_l btn_l_h" title="Limpiar busqueda" onclick="LimpiarConsultac();"><img src="img/eraser.png" width="25px"/></button>
+                <br><br><div align="left"><button class="btn_succes btn_s_h" onclick="nuevoCliente();" title="Agregar nuevo cliente"><img src="img/round-add-button.png" width="20px"></button></div>
+                
+                <div id="mostrarclientes">
+                    <br><br>
+                </div>
+                <div id="mostrarc">
+            </div>
+            </div>
+
+            <div id="Mensajes" class="tabcontent">
+                <br>
+                <script>Consultarm();</script>  
+                <Label>ID</label>
+                <input class="form_input" type="number" id="idm">
+                <button class="btn_c btn_c_h" title="Buscar mensaje" onclick="Consultarunom();"><img src="img/magnifying-glass.png"/></button>&nbsp;&nbsp;<button
+                    class="btn_l btn_l_h" title="Limpiar busqueda" onclick="LimpiarConsultam();"><img src="img/eraser.png" width="25px"/></button>
+                <br><br><div align="left"><button class="btn_succes btn_s_h" onclick="nuevoMensaje();" title="Agregar nuevo mensaje"><img src="img/round-add-button.png" width="20px"></button></div>
+                
+                <div id="mostrarmensajes">
+                    <br><br>
+                </div>
+                <div id="mostrarm">
+            </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+
+</html>
